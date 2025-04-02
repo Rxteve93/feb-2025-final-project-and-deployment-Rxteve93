@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #028A0F;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.featured {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+.latest-posts {
+    padding: 10px;
+}
+
+.latest-posts .post {
+    display: block;
+    gap: 10px;
+    align-items: center;
+}
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #028A0F;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer {
+    background-color: #333;
+    padding: 15px;
+    align-items: center;
+}
+#footer-text{
+    text-align: center;
+    font-style: italic;
+    font-size: x-small;
+    color: #ccc;
+
+}
+
+#text{
+text-align: none;
+margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #028A0F; 
+}
+
+@media (max-width: 600px) {
+    .social-icons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.digital-skills {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    background: #e3f2fd;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.skill i {
+    font-size: 30px;
+    color: #028A0F;
+}
+
+.skill p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
