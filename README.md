@@ -16,6 +16,8 @@ Ecommerce Website: Implement a multi-page site with navigation.
 > - JavaScript interactivity.
 > - A deployment link.
 
+
+
 ## Tasks
 
 Create a well-structured HTML5 document.
@@ -23,3 +25,5 @@ Use at least 5 different HTML elements.
 Ensure semantic correctness.
 
 Good luck and happy coding! 🚀💻
+
+deployment link : https://fancy-cocada-b878b1.netlify.app/
